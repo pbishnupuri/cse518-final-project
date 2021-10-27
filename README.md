@@ -13,9 +13,7 @@ In this project, we plan to model human opinion dynamics by implementing a recom
 	https://academic.oup.com/joc/article-abstract/64/4/702/4086042
 - Opinion dynamics: models, extensions and external effects
 https://arxiv.org/pdf/1605.06326.pdf
-
 ---
-
 ## PROJECT MILESTONE 1
 ### LITERATURE REVIEW
 The subject of polarization across social networks has been explored with many different theoretical and empirical experiments, though much less attention has been placed on the dynamics of skepticism. Our literature review focused on understanding both classic and more novel trust-based models. “Opinion Dynamics: Models, Extensions, and External Effects” describes the backing theory and proofs of many different models of opinion dynamics, providing a better idea of how opinion dynamics works.  Other papers use theoretical simulations, similar to our proposed project; “Modeling of the Public Opinion Polarization Process with the Considerations of Individual Heterogeneity and Dynamic Conformity and Social Media” uses its own selection of mathematical models to research the spread of polarization (or depolarization) through a network. Finally, the paper “Opinion Dynamics of Skeptical Agents” provides general insight into how skepticism affects opinion dynamics. This paper also uses a proposed theoretical model to enrich models of polarization described in other theoretical papers. 
