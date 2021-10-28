@@ -1,5 +1,7 @@
 # Will probably split into multiple files and then have app.py put it all together
 
+# QUESTION - Can we use ANNs??? Surely we should be able to right? 
+
 ##### Graph
   # Characteristics of the graph
     # 1. Will be a complete graph
@@ -24,6 +26,9 @@
       # 2. Repeat until out of nodes to take
       # Pros - Faster, more scable?, lowers political polarization, more realistic (since we can show person one article at a time)
       # Cons - Doesn't mind minumum
+    ## Option 3 - ANN?
+      # 1. Not really versed in ML, but my professor said it was a possibility. I'm not sure how we would do this.
+    
 
 ##### Person Object
   ## Characteristics each person will start with:
