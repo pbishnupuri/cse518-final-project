@@ -13,6 +13,8 @@ class Person(object):
   #   # self.stance = self.stance + article_bias
   #   trust = math.exp(-(((article_bias - self.stance)**2)/(self.empathy)))
   #   self.stance = (((self.inertia * self.stance)+(self.stance * trust)) / (self.inertia * trust))
+  def get_stance(self):
+    return self.stance
 
   def update_func2(self, stance, article_bias):
     # self.stance = self.stance + article_bias
@@ -24,10 +26,10 @@ class Person(object):
         stance = stance - (1-self.inertia)*((1-self.inertia)*trust)*(article_bias - stance)
 
     # stance = ((self.inertia * stance)+(stance * trust)) / (self.inertia + trust)
-    print(f'article bias: {article_bias}')
-    print(f'trust: {trust}')
-    print(f'stance: {stance}')
-    print('==================')
+    # print(f'article bias: {article_bias}')
+    # print(f'trust: {trust}')
+    # print(f'stance: {stance}')
+    # print('==================')
     return stance
   
   # def get_range(self):
